@@ -1,4 +1,4 @@
-temp = int(input("Enter the the numerical temperature alone: "))
+temp = int(input("Enter the the numerical temperature: "))
 choice = input("Type 1 for Fahrenheight-to-Centigrade. Type 2 for Centigrade-to-Fahrenheight: ")
 if choice == "1":
     converted_temp = (5/9) * (temp - 32)
